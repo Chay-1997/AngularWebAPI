@@ -1,0 +1,23 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>All Data</h1>
+        <table>
+            <thead>
+                <td>Id</td>
+                <td>Name</td>
+                <td>City</td>
+            </thead>
+            <tbody >
+                <tr *ngFor="let per of persons">
+                    <td>{{per.PersonID}}</td>
+                    <td>{{per.PersonName}}</td>
+                    <td>{{per.PersonCity}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>

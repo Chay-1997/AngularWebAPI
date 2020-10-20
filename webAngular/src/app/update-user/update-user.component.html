@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+
+    </head>
+    <body>
+        <h1>{{message}}</h1>
+        <h2>Update</h2>
+        <form>
+            <input type="text" name="PersonID"  id="PersonID" [(ngModel)]="person.PersonID" />
+            <br>
+            <input type="text" name="PersonName"  id="PersonName" [(ngModel)]="person.PersonName" />
+            <br>
+            <input type="text" name=PersonCity  id="PersonCity" [(ngModel)]="person.PersonCity" />
+            <br>
+              <button type="submit" (click)="update()" >Update</button>
+
+        </form>
+    </body>
+</html>
+
